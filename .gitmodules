@@ -1,6 +1,7 @@
 [submodule "calculus"]
 	path = calculus
 	url = git@github.com:HastinKapoor/calculus.git
+	branch = artifact-eval
 [submodule "bpf-arena-data-structures"]
 	path = bpf-arena-data-structures
 	url = git@github.com:sohambagchi/bpf-arena-data-structures.git
