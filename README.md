@@ -6,6 +6,4 @@ Code for the paper "Formalizing the User-Kernel Shared-Memory Boundary: The C/LK
 git submodule update --init --recursive
 ```
 
-## Calculus
-
-## BPF Arena Data Structures
+See individual submodule READMEs for installation / usage instructions.
