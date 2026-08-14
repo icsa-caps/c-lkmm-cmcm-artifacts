@@ -1,0 +1,13 @@
+{ buf = 0; flag = 0; }
+
+P0(buf, flag) {
+Write(buf, 1, RELAXED, LINUX, None); // Event 0_0
+Write(flag, 1, RELEASE, LINUX, None); // Event 0_1
+}
+
+P1(buf, flag) {
+Read(flag, 1, ACQUIRE, LINUX, r0_T1); // Event 1_0
+Read(buf, 0, RELAXED, LINUX, r1_T1); // Event 1_1
+}
+
+exists (r0_T1 = 1 /\ r1_T1 = 0)
