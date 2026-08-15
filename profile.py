@@ -11,7 +11,7 @@ node = request.RawPC("node")
 node.hardware_type = "d710"
 
 # Assign the standard Debian 13 image
-node.disk_image = "urn:publicid:IDN+emulab.net+image+emulab-ops//DEBIAN13-64-STD"
+node.disk_image = "urn:publicid:IDN+emulab.net+image+emulab-ops//UBUNTU22-64-STD"
 
 # Print the RSpec to the portal
 portal.context.printRequestRSpec()
