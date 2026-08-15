@@ -2,9 +2,7 @@
 	path = calculus
 	url = git@github.com:HastinKapoor/calculus.git
 	branch = artifact-eval
-	update = merge
 [submodule "bpf-arena-data-structures"]
 	path = bpf-arena-data-structures
 	url = git@github.com:sohambagchi/bpf-arena-data-structures.git
 	branch = main
-	update = merge
